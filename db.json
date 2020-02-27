@@ -1,0 +1,51 @@
+{
+    "users": [
+        {
+            "id": 1001,
+            "name": "Travis",
+            "friends": 3001
+        },
+        {
+            "id": 1002,
+            "name": "Vivian",
+            "friends": 3002
+        }
+    ],
+    "messages": [
+        {
+            "id": 2001,
+            "owner": 1001,
+            "message": "Whassup test db!"
+        },
+        {
+            "id": 2002,
+            "owner": 1001,
+            "message": "Writing this message was boooo-ring."
+        },
+        {
+            "id": 2003,
+            "owner": 1001,
+            "message": "I have more messages than Viv."
+        },
+        {
+            "id": 2004,
+            "owner": 1002,
+            "message": "I'll write more than you!"
+        },
+        {
+            "id": 2005,
+            "owner": 1002,
+            "message": "Nvm. You take it. Deuces, beotch."
+        }
+    ],
+    "friends": [
+        {
+            "id": 3001,
+            "friend1": 1002
+        },
+        {
+            "id": 3002,
+            "friend1": 1001
+        }
+    ]
+}
